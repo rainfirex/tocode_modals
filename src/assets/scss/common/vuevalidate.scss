@@ -1,0 +1,16 @@
+.form-item .errorText {
+  display: none;
+  margin-bottom: 8px;
+  font-size: 13.4px;
+  color: #de4040;
+}
+
+.form-item {
+  &.errorInput .errorText {
+    display: block;
+  }
+}
+
+input.error {
+  border-color: #de4040;
+}
