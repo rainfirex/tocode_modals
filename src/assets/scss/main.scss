@@ -80,7 +80,7 @@ section, .section {
   flex: 0 0 auto;
   position: relative;
   max-width: $desktopWidth;
-  margin: 45px auto;
+  margin: 0 auto;
   @media screen and (max-width: $smDesktopWidth) {
     max-width: $tableWidth;
   }

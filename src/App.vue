@@ -1,9 +1,11 @@
 <template>
   <div class="wrapper">
 
-    <!--<header></header>-->
+    <header>
+      <navMenu :navs="navs"/>
+    </header>
 
-    <navMenu :navs="navs"/>
+
 
     <router-view></router-view>
 
